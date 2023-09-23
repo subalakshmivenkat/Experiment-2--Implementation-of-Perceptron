@@ -23,6 +23,7 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
 ## ALGORITHM:
+```
 1 Importing the libraries
 2 Importing the dataset
 3 Plot the data to verify the linear separable dataset and consider only two classes
@@ -37,7 +38,7 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
         W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)
 10 Plot the error for each iteration 
 11 Print the accuracy
-
+```
  ## PROGRAM:
 ```
 import numpy as np
